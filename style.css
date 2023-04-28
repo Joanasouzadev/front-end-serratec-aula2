@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rebeccapurple;
+    color: aliceblue;
+}
+footer {
+    background: grey;
+    color: aliceblue;
+    background: linear-gradient(#9400d3,#220938);
+}
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    background: linear-gradient(#9400d3,#220938);
+}
+main {
+    display: flex;
+    height: 76vh;
+}
+.container {
+    display: flex;
+}
+.esquerdo {
+    margin-top: 50px;
+    margin-right: 70px;
+    border: 10px;
+    width: 500px;
+    border: solid 1px black
+}
+img  {
+    margin-top: 50px;
+    width: 500px;
+    display: inline-block;
+    border: solid 1px black;
+    
+    
+}
+.direita {
+    
+    width: 500px;
+}
